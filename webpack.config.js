@@ -45,7 +45,11 @@ const getCssLoaders = (isDevMode = true, isCssModules = false) => {
     cssLoaders.push('css-loader');
   }
 
-  if (!isDevMode) cssLoaders.push('postcss-loader');
+  if (!isDevMode) {
+    cssLoaders.push({
+      loader: 'postcss-loader',
+    });
+  }
 
   return cssLoaders;
 };
