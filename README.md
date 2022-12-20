@@ -29,7 +29,7 @@
 Клонируйте текущий репозиторий:
 
    ```bash
-      git clone https://github.com/RomanDeveloperGit/react-ts-webpack-template
+      git clone https://github.com/RomanDeveloperGit/react-ts-webpack-template.git
    ```
 
 Установите все зависимости:
